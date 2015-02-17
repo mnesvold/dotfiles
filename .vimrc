@@ -7,3 +7,7 @@ set shiftwidth=4
 
 " Right-hand margin
 set colorcolumn=80
+
+" Highlight trailing whitespace
+:highlight TrailingWhitespace ctermbg=red guibg=red
+:match TrailingWhitespace /\s\+$/
