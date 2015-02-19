@@ -3,3 +3,5 @@
 [alias]
 	gr = log --decorate --pretty=oneline --abbrev-commit --graph -n 15
 	st = status -sb --untracked-files=all
+[core]
+	editor = vi
