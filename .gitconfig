@@ -5,3 +5,5 @@
 	st = status -sb --untracked-files=all
 [core]
 	editor = vi
+[rebase]
+    autosquash = true
