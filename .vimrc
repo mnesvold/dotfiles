@@ -16,3 +16,9 @@ set colorcolumn=80
 " Highlight trailing whitespace
 highlight TrailingWhitespace ctermbg=red guibg=red
 match TrailingWhitespace /\s\+$/
+
+" Fold lines with matching indentation levels
+set foldmethod=indent
+
+" Show keystrokes in status line
+set showcmd
