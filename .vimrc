@@ -5,6 +5,9 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+" Syntax coloring
+syntax on
+
 " Line numbers
 set number
 highlight LineNr term=bold ctermfg=DarkGrey guifg=DarkGrey
